@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1503601350100-26336a6beda2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    position: relative;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 320px;
+    height: 400px;
+    min-height: 100px; 
+    margin: 100px auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+    padding: 50px 20px;
+}
+.containers{
+    width: 320px;
+    height: 410px;
+    min-height: 100px; 
+    margin: 100px auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+    padding: 50px 20px;
+}
+.titulo h3{
+    text-align: center;
+    justify-content: center;
+}
+.text{
+    display: center;
+    justify-content: center;
+}
+
+.dropdown-item{
+    text-align: center;
+}
+
+#btn{
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+}
+ #btn button {
+
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 1em;
+    border-radius: 10px;
+    background-image: linear-gradient(101deg, #66bfda, #c8e7f9,rgb(255, 209, 124));
+    box-shadow: 2px 1000px 1px #fff inset;
+  }
+#btn button:hover {
+    box-shadow: none;
+    color: rgb(1, 1, 1);
+  }
+.card{
+    background: rgba(0, 0, 0, 0.5);
+    margin: 100px auto;
+    height: 20rem;
+}
+.texto{
+    text-align: center;
+}
+.card-deck{
+    display: flex;
+}
+#abc{
+    margin-top: 10%;
+    width: 40%;
+    text-align: center;
+}
+ #abc button {
+
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 1em;
+    border-radius: 10px;
+    background-image: linear-gradient(101deg, #66bfda, #c8e7f9,rgb(255, 209, 124));
+    box-shadow: 2px 1000px 1px #fff inset;
+  }
+#abc button:hover {
+    box-shadow: none;
+    color: rgb(1, 1, 1);
+}
+
+#def{
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+ #def button {
+    margin-bottom: 2%;
+    width: 55%;
+    height: 40px;
+    border: none;
+    font-size: 1em;
+    border-radius: 10px;
+    background-image: linear-gradient(101deg, #66bfda, #c8e7f9,rgb(255, 209, 124));
+    box-shadow: 2px 1000px 1px #fff inset;
+    margin-top: -20px;
+  }
+#def button:hover {
+    box-shadow: none;
+    color: rgb(1, 1, 1);
+}
+#pesquis{
+    width: 75%;
+    height: 44px;
+    margin-left: 35px;
+    margin-top: -10px;
+
+}
